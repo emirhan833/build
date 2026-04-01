@@ -1,0 +1,94 @@
+{
+  "musteriler": [
+    {
+      "id": "20260402021532388143",
+      "isim": "mustafa",
+      "soyisim": "yuvalı",
+      "telefon": "05372127392",
+      "adres": "",
+      "kayit_tarihi": "2026-04-02",
+      "aktif": true,
+      "siparisler": []
+    },
+    {
+      "id": "20260402021547704401",
+      "isim": "ben",
+      "soyisim": "ben",
+      "telefon": "05546946469",
+      "adres": "",
+      "kayit_tarihi": "2026-04-02",
+      "aktif": true,
+      "siparisler": []
+    },
+    {
+      "id": "20260402021605155101",
+      "isim": "durmuş",
+      "soyisim": "keleş",
+      "telefon": "05324543443",
+      "adres": "",
+      "kayit_tarihi": "2026-04-02",
+      "aktif": true,
+      "siparisler": []
+    },
+    {
+      "id": "20260402021635155042",
+      "isim": "burak yuvalı",
+      "soyisim": "yuvalı",
+      "telefon": "01464543232",
+      "adres": "",
+      "kayit_tarihi": "2026-04-02",
+      "aktif": true,
+      "siparisler": [
+        {
+          "id": "20260402021655521269",
+          "olusturma": "2026-04-02",
+          "toplam_dam": 1,
+          "program": [
+            {
+              "tarih": "2026-04-02",
+              "teslim": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20260402021717321056",
+      "isim": "sultan",
+      "soyisim": "ünlü",
+      "telefon": "4567897878",
+      "adres": "",
+      "kayit_tarihi": "2026-04-02",
+      "aktif": true,
+      "siparisler": [
+        {
+          "id": "20260402021733086393",
+          "olusturma": "2026-04-02",
+          "toplam_dam": 5,
+          "program": [
+            {
+              "tarih": "2026-04-02",
+              "teslim": true
+            },
+            {
+              "tarih": "2026-04-03",
+              "teslim": true
+            },
+            {
+              "tarih": "2026-04-04",
+              "teslim": true
+            },
+            {
+              "tarih": "2026-04-06",
+              "teslim": true
+            },
+            {
+              "tarih": "2026-04-07",
+              "teslim": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

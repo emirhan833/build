@@ -1,0 +1,1 @@
+([('SuTakip', '/Users/emir/go/python/dist/SuTakip', 'EXECUTABLE')],)
