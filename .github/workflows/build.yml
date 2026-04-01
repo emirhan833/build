@@ -17,13 +17,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Kütüphaneleri kur
-        run: pip install pyinstaller
+      - name: Gereksinimleri kur
+        run: |
+          pip install pyinstaller
+          pip install customtkinter
 
       - name: EXE oluştur
-        run: pyinstaller --onefile list.py
+        run: pyinstaller --onefile --windowed --hidden-import=customtkinter --add-data "su_takip_data.json;." list.py
 
-      - name: Dosyayı yükle
+      - name: EXE yükle
         uses: actions/upload-artifact@v4
         with:
           name: exe-file
