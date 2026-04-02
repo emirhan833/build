@@ -23,7 +23,7 @@ jobs:
           pip install customtkinter
 
       - name: EXE oluştur
-        run: pyinstaller --onefile --windowed --hidden-import=customtkinter --add-data "su_takip_data.json;." list.py
+        run: pyinstaller --onefile --windowed --hidden-import=customtkinter --add-data "su_takip_data.json;." fixing.py
 
       - name: EXE yükle
         uses: actions/upload-artifact@v4
